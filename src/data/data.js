@@ -15,7 +15,7 @@ const products = [
         stock: 5,
         price: 2500,
         image: "/img/topmalibu.jpg",
-        category: "buzos"
+        category: "remeras"
     },
     {
         id: "SW2471",
@@ -33,7 +33,7 @@ const products = [
         stock: 5,
         price: 3000,
         image: "/img/jeans-cargo.jpg",
-        category: "buzos"
+        category: "jeans"
     },
     {
         id: "OI0232",

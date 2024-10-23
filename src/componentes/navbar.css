@@ -4,11 +4,13 @@
     background-color: grey;
 }
 .h1{
-    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     display: flex;
     padding-top: 15px;
+}
+a{
+    text-decoration: none;
 }
 .itempadre{
     display: flex;
