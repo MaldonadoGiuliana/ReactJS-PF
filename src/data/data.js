@@ -11,7 +11,7 @@ const products = [
     {
         id: "RT3452",
         name: "Remera Malibu",
-        description: "",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis rem quidem eveniet maiores, voluptate deleniti vitae impedit necessitatibus culpa maxime consequuntur asperiores ad tempora? Aliquid, officiis ab. Possimus, animi obcaecati!",
         stock: 5,
         price: 2500,
         image: "/img/topmalibu.jpg",
