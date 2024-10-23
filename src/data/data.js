@@ -1,7 +1,7 @@
 const products = [
     {
         id: "DF2121",
-        name: "Remera roja",
+        name: "Remera Naranja ",
         description: "",
         stock:10,
         price: 2000,
@@ -11,15 +11,14 @@ const products = [
     {
         id: "RT3452",
         name: "Remera Malibu",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis rem quidem eveniet maiores, voluptate deleniti vitae impedit necessitatibus culpa maxime consequuntur asperiores ad tempora? Aliquid, officiis ab. Possimus, animi obcaecati!",
-        stock: 5,
+        description: "",
         price: 2500,
         image: "/img/topmalibu.jpg",
         category: "remeras"
     },
     {
         id: "SW2471",
-        name: "Jeans beige",
+        name: "Jean Beige",
         description: "",
         stock: 3,
         price: 2300,
@@ -37,21 +36,21 @@ const products = [
     },
     {
         id: "OI0232",
-        name: "Buzo Winstong",
+        name: "Campera Winstong",
         description: "",
         stock: 5,
         price: 2000,
         image: "/img/buzo-Winstong.jpg",
-        category: "buzos"
+        category: "camperas"
     },
     {
         id: "QA2096",
-        name: "Buzo canguro",
+        name: "Campera Canguro",
         description: "",
         stock: 5,
         price: 2000,
         image: "/img/canguro.jpg",
-        category: "buzos"
+        category: "camperas"
     }
 ]
 /*

@@ -1,13 +1,13 @@
+import "./itemdetailcontainer.css"
 const ItemDetail = ( {product} ) => {
   return (
-    <div style={{display:"flex"}} > 
-            <img src={product.image} width={300} alt="" />
-            <div>
-                <h2>{product.name} </h2>
-                <p> {product.description} </p>
-                <p> Precio: ${product.price} </p>
-            </div>
-        </div>
+    <div className="item-detail" > 
+      <img src={product.image} className="img-detail" alt="" />
+      <div className="detail">
+        <h2>{product.name} </h2>
+        <p> Precio: ${product.price} </p>
+      </div>
+    </div>
   )
 }
 
