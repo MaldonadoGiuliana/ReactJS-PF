@@ -5,7 +5,7 @@ const products = [
         description: "",
         stock:10,
         price: 2000,
-        image: "/img/remeranar.jpg",
+        image: ["/img/remeranar.jpg", "/img/letra-A.png", "/img/letra-B.png", "/img/letra-C.png", "/img/letra-D.png", "/img/letra-K.png"],
         category: "remeras"
     },
     {
@@ -13,7 +13,7 @@ const products = [
         name: "Remera Malibu",
         description: "",
         price: 2500,
-        image: "/img/topmalibu.jpg",
+        image: ["/img/topmalibu.jpg", "/img/letra-A.png", "/img/letra-B.png", "/img/letra-C.png", "/img/letra-D.png", "/img/letra-K.png"],
         category: "remeras"
     },
     {
@@ -22,7 +22,7 @@ const products = [
         description: "",
         stock: 3,
         price: 2300,
-        image: "/img/jeans.jpg",
+        image: ["/img/jeans.jpg", "/img/letra-A.png", "/img/letra-B.png", "/img/letra-C.png", "/img/letra-D.png", "/img/letra-K.png"],
         category: "jeans"
     },
     {
@@ -31,7 +31,7 @@ const products = [
         description: "",
         stock: 5,
         price: 3000,
-        image: "/img/jeans-cargo.jpg",
+        image: ["/img/jeans-cargo.jpg", "/img/letra-A.png", "/img/letra-B.png", "/img/letra-C.png", "/img/letra-D.png", "/img/letra-K.png"],
         category: "jeans"
     },
     {
@@ -40,7 +40,7 @@ const products = [
         description: "",
         stock: 5,
         price: 2000,
-        image: "/img/buzo-Winstong.jpg",
+        image: ["/img/buzo-Winstong.jpg","/img/letra-A.png", "/img/letra-B.png", "/img/letra-C.png", "/img/letra-D.png", "/img/letra-K.png"],
         category: "camperas"
     },
     {
@@ -49,7 +49,7 @@ const products = [
         description: "",
         stock: 5,
         price: 2000,
-        image: "/img/canguro.jpg",
+        image: ["/img/canguro.jpg","/img/letra-A.png", "/img/letra-B.png", "/img/letra-C.png", "/img/letra-D.png", "/img/letra-K.png"],
         category: "camperas"
     }
 ]

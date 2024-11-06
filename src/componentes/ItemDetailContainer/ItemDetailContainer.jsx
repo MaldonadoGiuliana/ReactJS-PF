@@ -5,10 +5,12 @@ import ItemDetail from "./ItemDetail"
 
 //traigo la info de los productos
 const ItemDetailContainer = () => {
-    const [product, setProduct] = useState([])
+    const [product, setProduct] = useState({})
+    const [loading, setLoading] = useState(true)
     const { idProduct } = useParams()
 
     useEffect( ()=>{
+        setLoading(true)
         //itera sobre los productos del array
         getProducts()
             //busca cual coincide con la condicion, guardandolo en la variable de estado
@@ -16,10 +18,15 @@ const ItemDetailContainer = () => {
                 const findProduct = data.find((product)=> product.id === idProduct )
                 setProduct(findProduct)
             } )
+            .finally(() => setLoading(false))
     },[idProduct])
 
     return (
-        <ItemDetail product={product} />
+        <>  
+            {
+                loading === true ? (<div>Cargando...</div>) : <ItemDetail product={product} />
+            }
+        </>
     )
 }
 
